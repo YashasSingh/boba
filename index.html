@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Boba - Winter Wonderland Edition</title>
+    <style>
+        /* General styles for the body */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298), url('https://www.transparenttextures.com/patterns/snow.png') repeat;
+            color: #e0f7fa;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        /* Styling for the header */
+        header {
+            background-color: rgba(30, 60, 114, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #e0f7fa;
+            margin: 0;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #e0f7fa;
+            font-size: 1.2em;
+            padding: 10px 15px;
+            border: 1px solid #e0f7fa;
+            border-radius: 20px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #4a90e2;
+            transform: scale(1.1);
+        }
+
+        /* Hero section styling */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 40px;
+            background-color: rgba(30, 60, 114, 0.8);
+            color: #e0f7fa;
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        .hero-image {
+            max-width: 40%;
+            height: auto;
+        }
+
+        /* Section styles */
+        section {
+            display: flex;
+            align-items: flex-start;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .text-content {
+            width: 65%;
+            padding-right: 20px;
+        }
+
+        .text-content h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .text-content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .image-placeholder {
+            width: 30%;
+            height: 100%;
+            background-color: rgba(224, 247, 255, 0.2);
+            border: 2px dashed #4a90e2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e0f7fa;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(30, 60, 114, 0.9);
+            color: #e0f7fa;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Snowflake animation */
+        .snowflake {
+            position: absolute;
+            top: -10%;
+            animation: fall 10s linear infinite;
+            font-size: 1.5em;
+            color: #ffffff;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All About Boba</h1>
+        <nav>
+            <a href="#history">History</a>
+            <a href="#poems">Poems</a>
+            <a href="#stories">Stories</a>
+            <a href="#features">Features</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h2>Discover the Magic of Boba</h2>
+            <p>Explore everything about boba, from its rich history to festive winter creations. Dive into a journey of flavor and warmth!</p>
+        </div>
+        <img src="download.jpg" alt="Hero Image" class="hero-image">
+    </div>
+
+    <!-- Section: History -->
+    <section id="history">
+        <div class="text-content">
+            <h2>History of Boba</h2>
+            <p>Boba, also known as bubble tea, traces its origins to Taiwan in the 1980s. Initially, it was a simple drink made by combining hot tea with chewy tapioca pearls, a novel twist that captured the imagination of tea lovers everywhere. The innovation is credited to Lin Hsiu Hui, a product manager who first added sweetened tapioca pudding to her tea during a staff meeting at Chun Shui Tang Teahouse in Taichung. This seemingly simple act of creativity led to a worldwide sensation.</p>
+            <p>By the late 1980s, night markets in Taiwan were bustling with vendors selling variations of boba tea, ranging from sweetened milk teas to fruit-infused creations. The drink’s popularity exploded during the 1990s, as it spread across Asia and eventually to the United States and Europe. Today, bubble tea is a cultural icon, symbolizing the fusion of tradition and modernity.</p>
+            <p>Winter-themed boba beverages have carved out a special niche, blending festive flavors like peppermint, gingerbread, and eggnog with the comforting textures of tapioca pearls. These drinks not only warm the body but also evoke the coziness of the holiday season, making them a beloved winter treat.</p>
+            <p>Modern innovations have taken boba to new heights. From popping pearls filled with fruity essences to alternative toppings like cheese foam and grass jelly, the possibilities are endless. Some shops even offer "snow boba"—blended drinks resembling milkshakes, perfect for colder months.</p>
+            <p>Whether enjoyed in its classic form or as part of a winter wonderland theme, boba tea continues to bring joy to millions, uniting people across cultures and continents.</p>
+        
+        </div>
+        
+        <img src="history.avif" alt="History Image" class="image-placeholder">
+    </section>
+
+    <!-- Section: Poems -->
+    <section id="poems">
+        <div class="text-content">
+            <h2>Poems</h2>
+                        <p>
+                In winter's chill, a cup so sweet,<br>
+                Tapioca pearls, a cozy treat.<br>
+                With every sip, my spirits soar,<br>
+                A winter love I can’t ignore.
+            </p>
+            <p>
+                Snow falls softly, a frosty delight,<br>
+                Boba in hand, my heart feels light.<br>
+                A blend of flavors, warmth in disguise,<br>
+                Winter’s embrace, in every size.
+            </p>
+            <p>
+                Peppermint swirls and gingerbread flair,<br>
+                Boba creations beyond compare.<br>
+                Sweet and creamy, with festive charm,<br>
+                Wintertime boba keeps spirits warm.
+            </p>
+            <p>
+                Wrapped in scarves, with friends we meet,<br>
+                Sharing tales over drinks so sweet.<br>
+                Frosty windows and laughter anew,<br>
+                Boba’s the bond that pulls us through.
+            </p>
+        </div>
+        <img src="2C67M3R.avif" alt="Poem Image" class="image-placeholder">
+        
+    </section>
+
+    <!-- Section: Stories -->
+    <section id="stories">
+        <div class="text-content">
+            <h2>Stories</h2>
+            <p>
+On a snowy winter’s eve, a small café nestled in the heart of a bustling town unveiled its latest creation: the “Holiday Cheer Boba.” This unique drink featured a blend of warm peppermint milk tea, adorned with a swirl of whipped cream and a dusting of crushed candy canes. The café, already known for its cozy atmosphere and friendly staff, became a sanctuary for those seeking warmth and cheer amidst the frosty streets. Families gathered, couples sipped from shared straws, and strangers bonded over the novelty of the drink. It wasn’t long before the Holiday Cheer Boba turned into a beloved tradition, drawing in crowds every December to create memories that would last a lifetime.
+
+Far away, in a quiet village blanketed by snow, a young girl named Lily harbored dreams of opening her own boba shop. Her grandmother, a retired chef, often regaled her with tales of bold culinary experiments and passed down recipes that spoke of tradition and innovation. Inspired, Lily decided to try her hand at creating something unique. On one particularly frosty evening, she rummaged through her grandmother’s spice pantry. Guided by instinct and a sprinkle of curiosity, she combined chai tea with cinnamon, nutmeg, and a hint of clove. The resulting concoction, paired with chewy tapioca pearls, was a heartwarming spiced boba tea. Her family, initially skeptical, were delighted with the creation and urged her to share it with others.
+
+Encouraged by their praise, Lily braved the icy winds to set up a small stand at the village square. Armed with her Winter Spice Boba, she greeted passersby with a warm smile and steaming cups of her unique creation. Word of the delightful drink spread quickly, and soon, villagers flocked to her stand, eager to savor the boba tea that seemed to melt the winter’s chill. Over time, her humble stand blossomed into a bustling café, and Lily's dream came to life. Her journey became an inspiration, proving that even the coldest winters could give birth to the warmest stories.
+
+In the heart of a bustling city, the snowfall brought with it both chaos and wonder. A group of friends, loyal patrons of their favorite boba shop, found themselves disheartened one snowy evening when they discovered it had closed early due to the storm. Unwilling to let their night end in disappointment, they decided to recreate the boba magic at home. Armed with a hodgepodge of ingredients from their kitchen cabinets, they experimented late into the night. After a series of hilarious missteps and a fair share of spilled milk, they crafted a masterpiece: hot chocolate boba topped with marshmallows and a drizzle of caramel.
+
+Their creation was not just a drink but a testament to their friendship and determination. What began as a simple craving turned into an annual tradition, where every winter, they would gather to concoct new boba creations. Their snowy escapades became the stuff of legends among their circle, reminding them that boba wasn’t just about the taste but about the joy of shared experiences.
+
+Through the frosty air and twinkling lights, these tales weave a tapestry of dreams, warmth, and connection, showcasing how boba transcends its humble beginnings to become a symbol of togetherness in every season. Whether it's a cherished tradition, a spark for creativity, or a token of friendship, boba continues to bring people closer, one cup at a time. </p>
+        </div>
+        <img src="history1.avif" alt="Story Image" class="image-placeholder">
+    </section>
+
+    <!-- Section: Features -->
+    <section id="features">
+        <div class="text-content">
+            <h2>Interactive Features</h2>
+            <ul>
+                <li>Boba Flavor Quiz</li>
+                <li>Create Your Own Boba</li>
+                <li>Boba Trivia</li>
+            </ul>
+        </div>
+        <img src="download.webp" alt="Features Image" class="image-placeholder">
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 All About Boba</p>
+    </footer>
+
+    <script>
+        // Create snowflakes dynamically as the user scrolls
+        const snowflakeContainer = document.body;
+
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.classList.add('snowflake');
+            snowflake.textContent = '❄';
+            snowflake.style.left = Math.random() * 100 + 'vw';
+            snowflake.style.animationDuration = Math.random() * 5 + 5 + 's'; // Random duration between 5s and 10s
+
+            snowflakeContainer.appendChild(snowflake);
+
+            // Remove the snowflake after it falls
+            setTimeout(() => {
+                snowflake.remove();
+            }, 10000);
+        }
+
+        // Generate snowflakes on scroll
+        window.addEventListener('scroll', () => {
+            const scrollHeight = document.documentElement.scrollHeight;
+            const viewportHeight = window.innerHeight;
+            const scrollTop = document.documentElement.scrollTop;
+
+            // Check if the user is scrolling and near the bottom
+            if (scrollTop + viewportHeight >= scrollHeight - 100 || Math.random() < 0.3) {
+                createSnowflake();
+            }
+        });
+    </script>
+</body>
+</html>
